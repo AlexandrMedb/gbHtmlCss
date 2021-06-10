@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"); */
 
 * {
   margin: 0;
@@ -20,7 +20,7 @@ body {
 .container {
   width: 1140px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 64px;
 }
 
 .header {
@@ -36,12 +36,24 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin-bottom: 107px;
 }
 
 .header_banner {
-  background-image: url(img/headerImg.svg);
+  background-image: url(img/illustration.svg);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: right;
+}
+
+.header_title {
+  width: 504px;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  margin-bottom: 32px;
 }
 
 .header_text {
@@ -56,14 +68,156 @@ body {
   border-radius: 10px;
   border: none;
   color: #ffffff;
+  margin-top: 71px;
+  margin-bottom: 190px;
+}
+
+.content_header {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 359px;
+  padding: 44px 32px;
+  box-sizing: border-box;
+}
+
+.article_img {
+  height: 150px;
+  margin-bottom: 44px;
+}
+
+.article_title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.article_text {
+  margin-bottom: 28px;
+}
+
+.article_link {
+  display: flex;
+}
+
+.article_link__text {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5a98d0;
+  margin-right: 20px;
+}
+
+.doneProjects_banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doneProjects_header {
+  margin-bottom: 32px;
+}
+
+.doneProjects_text {
+  width: 750px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+.doneProjects_img {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.doneProjects_bigImgText {
+  position: absolute;
+  right: 64px;
+  top: 64px;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.doneProjects_smallImgs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.doneProjects_smallImgText {
+  position: absolute;
+  left: 32px;
+  top: 32px;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.footer {
+  background: #316099;
+  padding-top: 91px;
 }
 
 .footer_banner {
-  width: 495px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_article {
+  margin-bottom: 32px;
+}
+
+.footer_title {
+  width: 340px;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  margin-bottom: 32px;
 }
 
 .footer_text {
-  width: 340px;
+  width: 495px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.footer_button {
+  width: 236.63px;
+  height: 56px;
+  background: #5a98d0;
+  border: none;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  margin-top: 74px;
 }
 
 .footer_contacts {
@@ -72,39 +226,26 @@ body {
   flex-wrap: wrap;
 }
 
-.articles {
-  display: flex;
-  justify-content: space-between;
+.footer_botom {
+  padding: 64px 0px;
 }
 
-.article {
-  width: 359px;
+.footer_contact {
+  padding-left: 20px;
+  width: 316px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  box-sizing: border-box;
 }
 
-.header_title {
-  width: 508px;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 74px;
-  letter-spacing: 0.04em;
-  color: #1f3f68;
-}
-
-.heading2 {
-  font-weight: 500;
-  font-size: 44px;
-  text-align: center;
-}
-
-.heading3 {
-  font-size: 36px;
-  text-align: center;
-}
-
-.heading4 {
-  font-size: 20px;
-  line-height: 30px;
-  color: #1f3f68;
+.rights {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.4;
 }
 
 .inputField {
