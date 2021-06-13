@@ -1,0 +1,131 @@
+@media (max-width: 425px) {
+  .container {
+    padding: 0 16px;
+    margin-bottom: 32px;
+  }
+
+  .header {
+    padding-top: 16px;
+  }
+
+  .header_menu {
+    margin-bottom: 28px;
+  }
+
+  .header_banner {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_title {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  .header_text {
+    width: 343px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .button__header {
+    width: 108px;
+    height: 28px;
+    margin-bottom: 40px;
+  }
+
+  .article {
+    width: 334px;
+  }
+
+  .doneProjects_text {
+    width: 343px;
+  }
+
+  .doneProjects_banner {
+    margin-bottom: 64px;
+  }
+
+  .doneProjects_imgTitle:nth-of-type(2) {
+    margin-left: 0;
+  }
+
+  .doneProjects_bigImgText {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+  }
+
+  .doneProjects_smallImgs {
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .doneProjects_smallImgText {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .footer {
+    padding-top: 18px;
+    padding-bottom: 32px;
+  }
+
+  .footer_banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_article {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_title {
+    margin-bottom: 32px;
+    width: 343px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .footer_text {
+    width: 343px;
+    text-align: center;
+  }
+
+  .footer_button {
+    width: 108px;
+    height: 31px;
+    margin-top: 0px;
+  }
+
+  .footer_contacts {
+    padding: 32px 16px;
+    padding-bottom: 0px;
+    align-items: center;
+  }
+
+  .footer_contact {
+    line-height: 19px;
+    width: 270px;
+  }
+
+  .rights {
+    text-align: center;
+  }
+}

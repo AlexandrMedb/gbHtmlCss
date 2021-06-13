@@ -1,0 +1,42 @@
+@media (max-width: 769px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .header {
+    padding-top: 47px;
+  }
+
+  .header_banner {
+    background-size: 320px;
+    background-position: bottom 107px right;
+  }
+
+  .articles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article {
+    margin-bottom: 35px;
+  }
+
+  .doneProjects_text {
+    width: 520px;
+  }
+
+  .footer_text {
+    width: 336px;
+  }
+
+  .footer_contacts {
+    flex-direction: column;
+    padding-top: 64px;
+  }
+  .footer_contact {
+    width: 100%;
+  }
+  .footer_contact:not(:last-of-type) {
+    margin-bottom: 25px;
+  }
+}
