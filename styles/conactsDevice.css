@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  .banner {
+    background-size: cover;
+    padding-bottom: 28px;
+    margin-bottom: 64px;
+  }
+  .banner h1 {
+    padding-bottom: 20px;
+  }
+  .banner .banner_text {
+    width: 510px;
+  }
+  .contactUs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 32px;
+  }
+  .contactUs_left {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+  .map {
+    padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .header_menu {
+    margin-bottom: 25px;
+  }
+  .banner {
+    background-size: cover;
+    padding-bottom: 28px;
+    margin-bottom: 64px;
+  }
+  .banner h1 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .banner .banner_text {
+    max-width: 340px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .contactUs {
+    padding-bottom: 32px;
+  }
+  .contactUs_left {
+    width: 300px;
+    padding-left: 40px;
+    margin-bottom: 0px;
+  }
+  .contactUs_logo {
+    margin-bottom: 62px;
+    width: 300px;
+  }
+  .contactsUs_contact {
+    margin-bottom: 24px;
+  }
+  .contact_data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 16px;
+  }
+  .contact_data img {
+    margin-right: 16px;
+  }
+  .contactUs_form {
+    width: 340px;
+    padding: 36px;
+  }
+  .contactUs_form .contactUs_formTitel {
+    padding-bottom: 31px;
+  }
+  .contactUs_form .inputField {
+    padding-bottom: 32px;
+  }
+  .contactUs_form .inputField .inputField_form {
+    width: 271px;
+    height: 72px;
+    padding-left: 22px;
+  }
+  .contactUs_form .inputField .inputField_form_mesasage {
+    height: 92px;
+  }
+  .contactUs_form .buttonSubmit {
+    width: 271.6px;
+    height: 46.26px;
+    margin-top: 14px;
+  }
+  .map {
+    margin-bottom: 32px;
+  }
+}
+/*# sourceMappingURL=conactsDevice.css.map */

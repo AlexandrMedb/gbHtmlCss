@@ -1,2 +1,5 @@
-@import "styles/conactsUS.css";
+@import "styles/conacts.css";
 @import "styles/footer.css";
+@import "styles/tablet.css";
+@import "styles/mobile.css";
+@import "styles/conactsDevice.css";
